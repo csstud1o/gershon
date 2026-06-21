@@ -43,7 +43,7 @@ export default function Interior() {
               <img
                 src={img.src}
                 alt={img.label}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-600"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-dark-chocolate/0 group-hover:bg-dark-chocolate/40 transition-colors duration-300 flex items-center justify-center">
                 <ZoomIn className="text-cream opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />

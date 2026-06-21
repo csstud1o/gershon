@@ -97,7 +97,7 @@ export default function Menu() {
           {currentCategory.items.map((item, i) => (
             <motion.div
               key={item.name}
-              className="group bg-coffee-brown/30 border border-cream/10 overflow-hidden hover:border-gold/40 transition-all duration-400"
+              className="group bg-coffee-brown/30 border border-cream/10 overflow-hidden hover:border-gold/40 transition-all duration-300"
               initial={{ opacity: 0, y: 30 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: i * 0.1 }}
